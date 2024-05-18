@@ -1,0 +1,27 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinanceApp.MainPage">
+
+    <ContentPage.Content>
+
+           
+            <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+            <!-- Logo -->
+            <Image Source="C:\Users\Joker\source\repos\FinanceApp\FinanceApp\Resources\Images\logo1.jpg"
+                   HeightRequest="150" WidthRequest="150" Margin="0,0,0,20" />
+
+            <!-- Welcome message -->
+            <Label Text="Welcome to Finance App" FontSize="24" Margin="0,0,0,30" />
+
+            <!-- Get Started button -->
+            <Button Text="Get Started" FontSize="Medium" Clicked="OnGetStartedClicked" BackgroundColor="DarkGoldenrod"  Margin="0,0,0,20"/>
+
+            <!-- Button to open website -->
+            <Button Text="Visit Website" FontSize="Medium" Clicked="OnVisitWebsiteClicked"  BackgroundColor="DarkGoldenrod"  Margin="0,0,0,20"/>
+        </StackLayout>
+        
+      
+    
+    </ContentPage.Content>
+
+</ContentPage>

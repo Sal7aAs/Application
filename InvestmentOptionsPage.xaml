@@ -1,0 +1,20 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinanceApp.InvestmentOptionsPage">
+
+    <ContentPage.Content>
+        
+
+            <!-- StackLayout for the page content -->
+            <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Padding="20">
+                <Image Source="C:\Users\Joker\source\repos\FinanceApp\FinanceApp\Resources\Images\logo1.jpg"
+       HeightRequest="100" WidthRequest="100" Margin="0,0,0,20" />
+                <!-- Buttons with gold color -->
+                <Button Text="Crypto" FontSize="Medium" Clicked="OnCryptoClicked" BackgroundColor="DarkGoldenrod" Margin="0,0,0,20" />
+                <Button Text="Gold" FontSize="Medium" Clicked="OnGoldClicked" BackgroundColor="DarkGoldenrod" Margin="0,0,0,20" />
+                <Button Text="Real Estate" FontSize="Medium" Clicked="OnRealEstateClicked" BackgroundColor="DarkGoldenrod" Margin="0,0,0,20" />
+            </StackLayout>
+        
+    </ContentPage.Content>
+
+</ContentPage>
